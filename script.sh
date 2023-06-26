@@ -1,9 +1,12 @@
 #!/bin/bash
 
 # Definindo pastas de ação do script.
-source_folder="/home/joao/Developer/source_folder"
-backup_folder="/home/joao/Developer/backup_folder"
-log_file="/home/joao/Developer/log_file.txt"
+# Aqui para o script funcionar sem erros no seu computador é preciso setar os caminhos 
+# corretamento:
+source_folder=""
+backup_folder=""
+log_file=""
+
 
 # Validando se minha log_file.txt existe, se não existir quero cria-lá
 if [ ! -f "$log_file" ]; then
